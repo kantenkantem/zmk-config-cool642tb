@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                &kp T                                &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S         &kp D         &kp F                &kp G      &trans     &kp MINUS      &kp H        &kp J  &kp K      &lt 1 L     &lt 5 MINUS
-&kp Z      &kp X         &kp C         &kp V                &kp B      &lt 4 SQT  &kp SEMI       &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT CAPS  &kp SPACE  &kp TAB    &kp BACKSPACE  &lt 2 ENTER                                &kp EQUAL
+&kp Q      &kp W         &kp E         &kp R                &kp T                                       &kp Y        &kp U  &kp I      &kp O       &kp P
+&kp A      &kp S         &kp D         &kp F                &kp G      &trans     &kp NON_US_BACKSLASH  &kp H        &kp J  &kp K      &lt 1 L     &lt 5 MINUS
+&kp Z      &kp X         &kp C         &kp V                &kp B      &lt 4 SQT  &kp SEMI              &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT CAPS  &kp SPACE  &kp TAB    &kp BACKSPACE         &lt 2 ENTER                                &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -88,10 +88,10 @@
 
         NUM {
             bindings = <
-&kp MINUS  &kp N7  &kp N8   &kp N9  &kp PLUS                     &kp CARET         &kp AMPS           &kp TILDE  &kp LPAR  &kp RPAR
-&kp FSLH   &kp N4  &kp N5   &kp N6  &kp STAR  &trans  &kp UNDER  &kp EXCL          &kp AT             &kp HASH   &kp DLLR  &kp PRCNT
-&trans     &kp N1  &kp N2   &kp N3  &trans    &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LBRC   &kp RBRC  &kp BACKSLASH
-&trans     &kp N0  &kp DOT  &trans  &trans    &trans  &trans     &trans                                                    &kp PIPE
+&kp MINUS  &kp N7  &kp N8   &kp N9     &kp PLUS                             &kp CARET        &kp AMPS      &kp TILDE       &kp LPAR         &kp RPAR
+&kp FSLH   &kp N4  &kp N5   &kp N6     &kp STAR  &trans  &kp LEFT_BRACKET   &kp LEFT_ARROW   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRCNT
+&trans     &kp N1  &kp N2   &kp N3     &trans    &trans  &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp AT        &kp HASH        &kp DOLLAR       &kp PERCENT
+&trans     &kp N0  &kp DOT  &kp COMMA  &trans    &trans  &trans             &trans                                                          &kp PIPE
             >;
         };
 
